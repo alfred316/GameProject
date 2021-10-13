@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WeaponModel : ItemModel
+{
+    string type;
+
+    WeaponModel()
+    {
+        name = "";
+        type = "";
+    }
+}
